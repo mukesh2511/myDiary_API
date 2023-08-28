@@ -11,9 +11,6 @@ const app = express();
 app.use(cors({ origin: "https://mydiarymern.netlify.app", credentials: true }));
 const port = 5000;
 
-app.get("/", (req, res) => {
-  res("Hello World!");
-});
 const Connect = async () => {
   try {
     await mongoose.connect(
