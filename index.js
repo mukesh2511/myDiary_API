@@ -8,7 +8,7 @@ import cors from "cors";
 dotenv.config();
 
 const app = express();
-app.use(cors({ origin: "https://mydiarymern.netlify.app", credentials: true }));
+app.use(cors({ origin: "https://mydiary25.netlify.app", credentials: true }));
 const port = 5000;
 
 const Connect = async () => {
